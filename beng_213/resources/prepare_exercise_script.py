@@ -1,9 +1,8 @@
 import cobra.test
 ijo = cobra.test.create_test_model('ecoli')
 
-reactions = ['RIBtex', 'RIBabcpp', 'RBK', 'PRPPS', 'ATPPRT',
-             'PRATPP', 'PRAMPC', 'PRMICI', 'IG3PS', 'IGPDH',
-             'HSTPT', 'HISTP', 'HISTD', 'HISabcpp', 'HIStex']
+reactions = ['HEX1', 'PGI', 'PFK', 'TPI', 'FBA',
+             'GAPD', 'PGK', 'PGM', 'ENO', 'PYK']
 
 reactions_and_info = {}
 for r in reactions:
@@ -29,3 +28,5 @@ for r in reactions_and_info:
         mets_and_info[met]['formula'] = met_obj.formula
         mets_and_info[met]['charge'] = met_obj.charge
         mets_and_info[met]['compartment'] = met_obj.compartment
+
+print(mets_and_info)

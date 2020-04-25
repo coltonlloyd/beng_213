@@ -1,4 +1,5 @@
 cobra
+numpy
 escher
 matplotlib
 graphviz
