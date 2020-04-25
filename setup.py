@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 
-setup(name="beng_213",
+setup(name="beng213",
       version="",
       author="Colton Lloyd",
       url="https://github.com/coltonlloyd/qbio",
