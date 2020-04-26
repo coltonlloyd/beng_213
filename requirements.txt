@@ -2,7 +2,4 @@ cobra
 numpy
 escher
 matplotlib
-graphviz
-sklearn
 scipy
-pydotplus
