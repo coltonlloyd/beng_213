@@ -1721,7 +1721,7 @@
 "nadh_c":-1
 },
 "lower_bound":0,
-"upper_bound":1000.0,
+"upper_bound":0,
 "gene_reaction_rule":""
 },
 {
