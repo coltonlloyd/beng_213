@@ -3,5 +3,3 @@ numpy
 escher
 matplotlib
 scipy
-notebook
-jupyterlab
