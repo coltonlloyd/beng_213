@@ -1,5 +1,3 @@
-cobra
 numpy
-escher
 matplotlib
 scipy
